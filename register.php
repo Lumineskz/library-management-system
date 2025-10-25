@@ -22,9 +22,9 @@ if($_SERVER['REQUEST_METHOD']== "POST"){
 <body>
     <div class="register">
         <form action="register.php" method="POST">
-            <input type="text" name="name">
-            <input type="email" name="email">
-            <input type="password" name="password">
+            <input type="text" name="name" placeholder="Username">
+            <input type="email" name="email" placeholder="Email">
+            <input type="password" name="password" placeholder="Password">
             <input type="password" name="role" value="user" hidden>
             <button type="submit">Sign Up</button>
         </form>
