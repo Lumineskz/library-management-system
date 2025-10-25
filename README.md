@@ -1,1 +1,0 @@
-This library management system is built entirely on php using phpmyadmin(XAMPP)

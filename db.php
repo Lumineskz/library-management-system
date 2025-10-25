@@ -1,13 +1,13 @@
 <?php
 $server = "localhost";
-$username = "root";
-$password = "";
+$user = "root";
+$pass = "";
 $dbname = "librarydb";
-$conn = new mysqli($server, $username, $password, $dbname);
+$conn = new mysqli($server, $user, $pass, $dbname);
 
-if ($conn -> connect_error) {
-    die("Connection failed: " . $conn -> connect_error);
-} else{
-    // echo "Connected successfully";
+if(!$conn){
+    echo "Not conencted: {$conn->connect_error}";
+}else{
+   
 }
 ?>

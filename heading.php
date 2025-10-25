@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Library</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Libraryt</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
-</html>
